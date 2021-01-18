@@ -9,6 +9,7 @@ A 2D turn-based RPG engine made in GameMaker Studio 2.
 - Turn-based battles with easily customizable encounters
 - Leveling system for getting stronger and learning new attacks
 - Random enemy colours
+- Day/night cycle
 - Wacky battle backgrounds using GLSL shaders
 
 ## Screenshots and GIFs
