@@ -1,0 +1,37 @@
+cutscene = [
+	[cs_set_canmove, false],
+	[cs_npc_ai_disable, o_npc_notness],
+	[cs_wait_seconds, 0.4],
+	[cs_widescreen_enable, false],
+	[cs_wait_seconds, 0.3],
+	[cs_textbox, [
+		[s_face_unknown, "???", "you've fallen right into my trap!"],
+	]],
+	[cs_wait_seconds, 0.4],
+	[cs_npc_turn, o_player, DIR_UP],
+	[cs_wait_seconds, 0.4],
+	[cs_object_teleport, o_npc_notness, 200, 80],
+	[cs_npc_turn, o_npc_notness, DIR_DOWN],
+	[cs_camera_pan_seconds, 200, 148, 2, true],
+	[cs_npc_walk_at_speed, o_npc_notness, DIR_DOWN, 2, 0.25],
+	[cs_wait_seconds, 0.3],
+	[cs_textbox, [
+		[s_face_notness_smug, "???", "now you have nowhere to run!"],
+	]],
+	[cs_wait_seconds, 0.1],
+	[cs_textbox, [
+		[s_face_ness_cry, global.player_name, "!!"],
+	]],
+	[cs_wait_seconds, 0.1],
+	[cs_textbox, [
+		[s_face_notness_evillaugh, "???", "HA HA HA HA HA HA HA HA HA HA HA HA HA"],
+	]],
+	[cs_npc_walk_at_speed, o_npc_notness, DIR_DOWN, 3, 1],
+	[cs_battle, [oB_enemy_psycho_kid], TRANSITION_BATTLE_START_FADE, 0, "music here"],
+	[cs_object_teleport, o_npc_notness, -89, 48],
+	[cs_camera_follow_player],
+	[cs_wait_seconds, 1],
+	[cs_set_story_flag, FLAGS.TEST_TREE_2, true],
+	[cs_widescreen_disable, false],
+	[cs_set_canmove, true],
+];

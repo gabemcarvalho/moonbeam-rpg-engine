@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "s_chara_icon_small",
+    "path": "sprites/s_chara_icon_small/s_chara_icon_small.yy",
+  },
+  "solid": false,
+  "visible": false,
+  "spriteMaskId": {
+    "name": "s_ness_d",
+    "path": "sprites/s_ness_d/s_ness_d.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "o_movable_object",
+    "path": "objects/o_movable_object/o_movable_object.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_npc_parent","path":"objects/o_npc_parent/o_npc_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "NPCs",
+    "path": "folders/Objects/Overworld/NPCs.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "o_npc_parent",
+  "tags": [],
+  "resourceType": "GMObject",
+}

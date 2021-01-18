@@ -1,0 +1,1 @@
+if instance_exists(wall) instance_destroy(wall);

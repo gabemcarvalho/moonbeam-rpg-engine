@@ -1,0 +1,27 @@
+cutscene = [
+	[cs_set_canmove, false],
+	[cs_wait_seconds, 0.3],
+	[cs_widescreen_enable],
+	[cs_wait_seconds, 0.5],
+	[cs_textbox, [
+		[s_face_ness_oh, global.player_name, "There's a note here!"],
+	]],
+	[cs_wait_seconds, 0.2],
+	[cs_textbox, [
+		["\"Go to the middle of the forest to the south.\""],
+	]],
+	[cs_fade_out, 0.5, false],
+	[cs_wait_seconds, 0.1],
+	[cs_camera_jump, 328, 440],
+	[cs_wait_seconds, 0.1],
+	[cs_fade_in, 0.5, false],
+	[cs_wait_seconds, 1.0],
+	[cs_fade_out, 0.5, false],
+	[cs_wait_seconds, 0.1],
+	[cs_camera_follow_player],
+	[cs_widescreen_disable_instant],
+	[cs_wait_seconds, 0.1],
+	[cs_fade_in, 0.5, false],
+	[cs_set_story_flag, FLAGS.TEST_TREE_1, true],
+	[cs_set_canmove, true],
+];
